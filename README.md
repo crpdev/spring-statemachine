@@ -1,4 +1,4 @@
-# # Circle CI Build Status: [![CircleCI](https://circleci.com/gh/crpdev/spring-statemachine.svg?style=svg)](https://circleci.com/gh/crpdev/spring-statemachine)
+# Circle CI Build Status: [![CircleCI](https://circleci.com/gh/crpdev/spring-statemachine.svg?style=svg)](https://circleci.com/gh/crpdev/spring-statemachine)
 
 Implementing State Machine using Spring Boot
 
