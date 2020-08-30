@@ -4,23 +4,18 @@ import com.crpdev.spring.statemachine.config.actions.*;
 import com.crpdev.spring.statemachine.config.guards.PaymentGuard;
 import com.crpdev.spring.statemachine.domain.PaymentEvent;
 import com.crpdev.spring.statemachine.domain.PaymentState;
-import com.crpdev.spring.statemachine.services.PaymentServiceImpl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.messaging.support.MessageBuilder;
-import org.springframework.statemachine.action.Action;
 import org.springframework.statemachine.config.EnableStateMachineFactory;
 import org.springframework.statemachine.config.StateMachineConfigurerAdapter;
 import org.springframework.statemachine.config.builders.StateMachineConfigurationConfigurer;
 import org.springframework.statemachine.config.builders.StateMachineStateConfigurer;
 import org.springframework.statemachine.config.builders.StateMachineTransitionConfigurer;
-import org.springframework.statemachine.guard.Guard;
 import org.springframework.statemachine.listener.StateMachineListenerAdapter;
 import org.springframework.statemachine.state.State;
 
 import java.util.EnumSet;
-import java.util.Random;
 
 /**
  * Created by rajapandian

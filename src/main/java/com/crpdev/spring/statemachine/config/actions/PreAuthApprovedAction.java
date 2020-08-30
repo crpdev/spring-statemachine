@@ -2,9 +2,7 @@ package com.crpdev.spring.statemachine.config.actions;
 
 import com.crpdev.spring.statemachine.domain.PaymentEvent;
 import com.crpdev.spring.statemachine.domain.PaymentState;
-import com.crpdev.spring.statemachine.services.PaymentServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.action.Action;
 import org.springframework.stereotype.Component;
